@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kalkulator_bangun_ruang">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungPersegiPanjangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungBalokActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungLingkaranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungBolaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungTabungActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungKerucutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.PilihBangunRuangActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.PilihBangunDatarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungPersegiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungSegitigaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungTrapesiumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungLayangLayangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungBelahKetupatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungKubusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungJajarGenjangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kalkulator_bangun_ruang.HitungLimasSegiEmpatActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
